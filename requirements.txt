@@ -1,0 +1,7 @@
+selenium # вебдрайвер
+pytest  # Тестовый фреймворк
+slackclient==1.0.0
+jenkinsapi
+mimesis
+
+
