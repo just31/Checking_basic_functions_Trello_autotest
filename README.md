@@ -8,6 +8,16 @@
 По всем указанным действиям добавленны assert, проверки. 
 К пунктам по добавлению, перемещению и удалению карточки, проверки производятся через api запрос. 
 Т.е. выполняется запрос, на получение списка карточек, указанной доски. И в response ищется необходимая информация, по каждой из проверок.     
+
+This autotest on pytest, checks several basic Trello functions:
+
+1. Dual Authorization in Trello.
+2. Selecting the specified board, and adding a new card to it.
+3. Moving the newly added card, to the adjacent list.
+4. Deleting the added card.
+5. Logging out of the Trello account.
+
+For all of these actions added Assert, checks. To items on: Adding, Moving and Deleting the card, the checks are made through api request. I.e., a request for a list of cards of the specified board is executed. And in Response the necessary information is searched for each of the checks.
   
 
 # Installation
